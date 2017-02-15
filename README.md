@@ -1,7 +1,7 @@
 # NEDownloader
 * NEDownloader support Breakpoint continuingly
 
-![](https://github.com/XieXieZhongxi/CATransition/blob/master/screenshot/UIViewController.gif)
+![downloadExample](https://github.com/XieXieZhongxi/NEDownloader/blob/master/screenshot/downloadExample.gif)
 
 
 ###sample code

@@ -1,0 +1,334 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0B8DE91D1E52D835001B1896 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B8DE91C1E52D835001B1896 /* main.m */; };
+		0B8DE9201E52D835001B1896 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B8DE91F1E52D835001B1896 /* AppDelegate.m */; };
+		0B8DE9231E52D835001B1896 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B8DE9221E52D835001B1896 /* ViewController.m */; };
+		0B8DE9261E52D835001B1896 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B8DE9241E52D835001B1896 /* Main.storyboard */; };
+		0B8DE9281E52D835001B1896 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0B8DE9271E52D835001B1896 /* Assets.xcassets */; };
+		0B8DE92B1E52D835001B1896 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B8DE9291E52D835001B1896 /* LaunchScreen.storyboard */; };
+		0B8DE9351E52D956001B1896 /* NEDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B8DE9341E52D956001B1896 /* NEDownloader.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0B8DE9181E52D835001B1896 /* NEDownloader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NEDownloader.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0B8DE91C1E52D835001B1896 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0B8DE91E1E52D835001B1896 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0B8DE91F1E52D835001B1896 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0B8DE9211E52D835001B1896 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		0B8DE9221E52D835001B1896 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		0B8DE9251E52D835001B1896 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0B8DE9271E52D835001B1896 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0B8DE92A1E52D835001B1896 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0B8DE92C1E52D835001B1896 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0B8DE9331E52D956001B1896 /* NEDownloader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NEDownloader.h; sourceTree = "<group>"; };
+		0B8DE9341E52D956001B1896 /* NEDownloader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NEDownloader.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0B8DE9151E52D835001B1896 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0B8DE90F1E52D835001B1896 = {
+			isa = PBXGroup;
+			children = (
+				0B8DE91A1E52D835001B1896 /* NEDownloader */,
+				0B8DE9191E52D835001B1896 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0B8DE9191E52D835001B1896 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0B8DE9181E52D835001B1896 /* NEDownloader.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0B8DE91A1E52D835001B1896 /* NEDownloader */ = {
+			isa = PBXGroup;
+			children = (
+				0B8DE9321E52D8F5001B1896 /* Class */,
+				0B8DE91E1E52D835001B1896 /* AppDelegate.h */,
+				0B8DE91F1E52D835001B1896 /* AppDelegate.m */,
+				0B8DE9211E52D835001B1896 /* ViewController.h */,
+				0B8DE9221E52D835001B1896 /* ViewController.m */,
+				0B8DE9241E52D835001B1896 /* Main.storyboard */,
+				0B8DE9271E52D835001B1896 /* Assets.xcassets */,
+				0B8DE9291E52D835001B1896 /* LaunchScreen.storyboard */,
+				0B8DE92C1E52D835001B1896 /* Info.plist */,
+				0B8DE91B1E52D835001B1896 /* Supporting Files */,
+			);
+			path = NEDownloader;
+			sourceTree = "<group>";
+		};
+		0B8DE91B1E52D835001B1896 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0B8DE91C1E52D835001B1896 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0B8DE9321E52D8F5001B1896 /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				0B8DE9331E52D956001B1896 /* NEDownloader.h */,
+				0B8DE9341E52D956001B1896 /* NEDownloader.m */,
+			);
+			path = Class;
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0B8DE9171E52D835001B1896 /* NEDownloader */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0B8DE92F1E52D835001B1896 /* Build configuration list for PBXNativeTarget "NEDownloader" */;
+			buildPhases = (
+				0B8DE9141E52D835001B1896 /* Sources */,
+				0B8DE9151E52D835001B1896 /* Frameworks */,
+				0B8DE9161E52D835001B1896 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NEDownloader;
+			productName = NEDownloader;
+			productReference = 0B8DE9181E52D835001B1896 /* NEDownloader.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0B8DE9101E52D835001B1896 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Nelson;
+				TargetAttributes = {
+					0B8DE9171E52D835001B1896 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 7W8PN4SNVS;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 0B8DE9131E52D835001B1896 /* Build configuration list for PBXProject "NEDownloader" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0B8DE90F1E52D835001B1896;
+			productRefGroup = 0B8DE9191E52D835001B1896 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0B8DE9171E52D835001B1896 /* NEDownloader */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0B8DE9161E52D835001B1896 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B8DE92B1E52D835001B1896 /* LaunchScreen.storyboard in Resources */,
+				0B8DE9281E52D835001B1896 /* Assets.xcassets in Resources */,
+				0B8DE9261E52D835001B1896 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0B8DE9141E52D835001B1896 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B8DE9231E52D835001B1896 /* ViewController.m in Sources */,
+				0B8DE9201E52D835001B1896 /* AppDelegate.m in Sources */,
+				0B8DE91D1E52D835001B1896 /* main.m in Sources */,
+				0B8DE9351E52D956001B1896 /* NEDownloader.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0B8DE9241E52D835001B1896 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0B8DE9251E52D835001B1896 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0B8DE9291E52D835001B1896 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0B8DE92A1E52D835001B1896 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0B8DE92D1E52D835001B1896 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0B8DE92E1E52D835001B1896 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0B8DE9301E52D835001B1896 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7W8PN4SNVS;
+				INFOPLIST_FILE = NEDownloader/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Nelson.NEDownloader;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0B8DE9311E52D835001B1896 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7W8PN4SNVS;
+				INFOPLIST_FILE = NEDownloader/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Nelson.NEDownloader;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0B8DE9131E52D835001B1896 /* Build configuration list for PBXProject "NEDownloader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B8DE92D1E52D835001B1896 /* Debug */,
+				0B8DE92E1E52D835001B1896 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0B8DE92F1E52D835001B1896 /* Build configuration list for PBXNativeTarget "NEDownloader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B8DE9301E52D835001B1896 /* Debug */,
+				0B8DE9311E52D835001B1896 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0B8DE9101E52D835001B1896 /* Project object */;
+}

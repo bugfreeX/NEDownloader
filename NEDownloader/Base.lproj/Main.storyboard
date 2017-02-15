@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16D17a" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="mwu-K8-DHt">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="V3Y-Rh-JGS">
+                                <rect key="frame" x="16" y="332" width="343" height="2"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="2" id="VXh-op-bds"/>
+                                </constraints>
+                            </progressView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="? / ?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6aa-6o-en0">
+                                <rect key="frame" x="16" y="349" width="343" height="26"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="26" id="nlN-Xz-lJs"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" name="selectedTextBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8rW-lQ-M4T">
+                                <rect key="frame" x="167" y="399" width="40" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="40" id="Q6B-JL-BJw"/>
+                                    <constraint firstAttribute="height" constant="40" id="QaA-f7-TWD"/>
+                                </constraints>
+                                <state key="normal" image="suspend"/>
+                                <connections>
+                                    <action selector="suspendAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="3pw-Hx-fdw"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8PO-bq-rxI">
+                                <rect key="frame" x="87" y="399" width="40" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="40" id="VF5-FX-zI3"/>
+                                    <constraint firstAttribute="height" constant="40" id="jnl-ph-FNt"/>
+                                </constraints>
+                                <state key="normal" image="start"/>
+                                <connections>
+                                    <action selector="startAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="vLi-81-gQM"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CaQ-Oa-okV">
+                                <rect key="frame" x="247" y="399" width="40" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="40" id="cL4-xq-xaL"/>
+                                    <constraint firstAttribute="height" constant="40" id="p0Y-Zb-oWr"/>
+                                </constraints>
+                                <state key="normal" image="delete"/>
+                                <connections>
+                                    <action selector="deleteAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="yYX-Ph-Iy5"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="8PO-bq-rxI" firstAttribute="centerY" secondItem="8rW-lQ-M4T" secondAttribute="centerY" id="1T8-Bw-veS"/>
+                            <constraint firstItem="V3Y-Rh-JGS" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="5q7-63-4Cc"/>
+                            <constraint firstAttribute="trailing" secondItem="V3Y-Rh-JGS" secondAttribute="trailing" constant="16" id="7q5-CP-YNc"/>
+                            <constraint firstItem="8rW-lQ-M4T" firstAttribute="leading" secondItem="8PO-bq-rxI" secondAttribute="trailing" constant="40" id="F9z-3z-lX1"/>
+                            <constraint firstItem="8rW-lQ-M4T" firstAttribute="top" secondItem="6aa-6o-en0" secondAttribute="bottom" constant="24" id="ISI-Ck-H43"/>
+                            <constraint firstItem="CaQ-Oa-okV" firstAttribute="centerY" secondItem="8rW-lQ-M4T" secondAttribute="centerY" id="Ixx-pd-mFW"/>
+                            <constraint firstAttribute="trailing" secondItem="6aa-6o-en0" secondAttribute="trailing" constant="16" id="LvT-cL-cxT"/>
+                            <constraint firstItem="8rW-lQ-M4T" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Lvy-BH-o9i"/>
+                            <constraint firstItem="6aa-6o-en0" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="16" id="VBs-uc-3Hb"/>
+                            <constraint firstItem="6aa-6o-en0" firstAttribute="top" secondItem="V3Y-Rh-JGS" secondAttribute="bottom" constant="15" id="WgI-wY-4ES"/>
+                            <constraint firstItem="V3Y-Rh-JGS" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="16" id="Xga-eW-dLH"/>
+                            <constraint firstItem="CaQ-Oa-okV" firstAttribute="leading" secondItem="8rW-lQ-M4T" secondAttribute="trailing" constant="40" id="yiP-EN-vlu"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="SOu-F5-GCP"/>
+                    <connections>
+                        <outlet property="progressLabel" destination="6aa-6o-en0" id="Jh2-ek-Kr3"/>
+                        <outlet property="progressView" destination="V3Y-Rh-JGS" id="ifW-UI-84H"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1076" y="138.98050974512745"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="TBX-Fe-G9a">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="mwu-K8-DHt" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="VnM-w4-deZ">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="IoJ-9K-07B"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="CTm-V3-UzI" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="136.80000000000001" y="138.98050974512745"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="delete" width="64" height="64"/>
+        <image name="start" width="64" height="64"/>
+        <image name="suspend" width="64" height="64"/>
+    </resources>
+</document>

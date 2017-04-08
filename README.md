@@ -4,7 +4,7 @@
 ![downloadExample](https://github.com/XieXieZhongxi/NEDownloader/blob/master/screenshot/downloadExample.gif)
 
 
-###sample code
+### sample code
 * rsume
 ```objective-c
 __weak typeof(self) weakSelf = self;
